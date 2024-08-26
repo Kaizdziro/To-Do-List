@@ -44,7 +44,7 @@ function renderTaskList(taskData) { // Функция для отображен�
     buttonDone.className = 'button-done px-5';
     buttonDone.innerHTML = `
         <img class="${isComplete}" 
-        src="images/${isComplete}.png">
+        src=".../images/${isComplete}.png">
     `;
 
     // Создаем кнопку для удаления задачи
