@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do List</title>
+    <link href="/files/output.css" rel="stylesheet">
+</head>
+<body class="bg-lime-100">
+
+    <div class="container mx-auto mt-10 max-w-screen-lg md:max-w-screen-md 2sm:max-w-screen-sm">
+        
+        <!-- Left image section -->
+        <div class="relative">
+            <img class="md:rounded-[20px]" src="/images/table.jpg" alt="Table Image">
+            
+            <!-- Right form section overlay -->
+            <div class="md:absolute top-0 right-0 transform md:-translate-x-1/4 bg-yellow-200 md:rounded-[40px] p-8 md:w-[450px] md:h-[410px] md:-right-28 2sm:justify-center ">
+
+                <h1 class="text-center font-bold text-3xl mb-4">To-Do-List!</h1>
+                <h3 class="text-center text-lg mb-4 font-medium">Write anything you want down below</h3>
+        
+                <div class="flex justify-center mb-6">
+                    <form action="">
+                        <textarea class="main-text-area border-2 border-black p-2 h-16 rounded-lg" id=""></textarea>
+                    </form>
+                </div>
+        
+                <div class="flex justify-center">
+                    <button class="buttonSubmit bg-lime-400 font-medium text-black py-2 px-4 rounded-lg hover:bg-lime-500 transform hover:scale-105 transition ease-out duration-500" type="submit">Add to To-Do-List</button>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+    
+    <!-- Task list section -->
+    
+    <div class="section-with-Tasks container mx-auto bg-pink-100 border border-black rounded-lg mt-10">
+        <h3 class="text-center text-4xl py-5 font-medium ">Task list</h3>
+        <!-- Здесь будет размещен список задач -->
+    </div>
+
+    <script src="storage.js"></script>
+    <script src="source.js"> </script>
+
+</body>
+</html>

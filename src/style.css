@@ -1,0 +1,71 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.button-done {
+  background: transparent;
+  border: none;
+}
+
+.radio-button-off {
+  display: flex;
+  width: 20px;
+  height: 20px;
+}
+
+.radio-button-on {
+  display: flex;
+  width: 20px;
+  height: 20px;
+}
+
+.main-text-area {
+  width: 309px;
+  height: 69px;
+  max-width: 576px;
+  max-height: 209px;
+  min-width: 309px;
+  min-height: 69px;
+}
+
+.text {
+  max-width: 950px; /* Максимальная ширина */
+  max-height: 300px; /* Максимальная высота */
+  padding: 5px; /* Отступы внутри элемента */
+  border: 1px solid #ccc; /* Граница элемента */
+  word-wrap: break-word; /* Перенос текста на новую строку */
+  white-space: normal; /* Разрешает перенос текста и пробелов */
+}
+
+@media screen and (max-width: 1278px) {
+  .text {
+    max-width: 700px; /* Максимальная ширина */
+    max-height: 300px; /* Максимальная высота */
+    padding: 5px; /* Отступы внутри элемента */
+    border: 1px solid #ccc; /* Граница элемента */
+    word-wrap: break-word; /* Перенос текста на новую строку */
+    white-space: normal; /* Разрешает перенос текста и пробелов */
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .text {
+    max-width: 450px; /* Максимальная ширина */
+    max-height: 300px; /* Максимальная высота */
+    padding: 5px; /* Отступы внутри элемента */
+    border: 1px solid #ccc; /* Граница элемента */
+    word-wrap: break-word; /* Перенос текста на новую строку */
+    white-space: normal; /* Разрешает перенос текста и пробелов */
+  }
+}
+
+@media screen and (max-width: 430px) {
+  .text {
+    max-width: 300px; /* Максимальная ширина */
+    max-height: 1000px; /* Максимальная высота */
+    padding: 5px; /* Отступы внутри элемента */
+    border: 1px solid #ccc; /* Граница элемента */
+    word-wrap: break-word; /* Перенос текста на новую строку */
+    white-space: normal; /* Разрешает перенос текста и пробелов */
+  }
+}
